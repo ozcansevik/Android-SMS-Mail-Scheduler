@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp">
+
+    <EditText
+        android:id="@+id/inputNumero"
+        android:layout_width="300dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:hint="@string/default_text_num"/>
+
+      <ImageButton
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="5dp"
+          android:src="@drawable/check_number"
+          android:background="@android:color/transparent"
+          android:id="@+id/validateNumber"/>
+
+  </LinearLayout>
+
+    <ListView
+        android:id="@id/android:list"
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/ContactListView"/>
+
+
+    <TextView android:id="@id/android:empty"
+              android:gravity="center"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:text="@string/no_contacts"
+              android:fontFamily="sans-serif-light"
+              android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+</FrameLayout>

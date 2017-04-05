@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">SendSchedule</string>
+    <string id="button_mail" name="button_mail">Programmer un mail</string>
+    <string name="button_sms">Programmer un sms</string>
+    <string name="button_contact">Selectionner un contact</string>
+    <string name="button_envoyer">Envoyer</string>
+    <string name="default_text">Ecrire SMS</string>
+    <string name="default_text_dest">À: </string>
+    <string name="default_text_object">Objet: </string>
+    <string name="default_text_mail">Ecrire Mail</string>
+    <string name="default_text_mailfrom">Votre Adresse E-mail</string>
+    <string name="default_text_passfrom">Votre Mot de Passe</string>
+    <string name="default_text_num">Entrez un numéro</string>
+    <string name="button_validate">Valider</string>
+    <string name="button_calendar">Calendrier</string>
+    <string name="button_time">Horloge</string>
+    <string name="button_my_sms">Mes SMS programés</string>
+    <string name="text_listSMS">Liste des SMS programmés</string>
+    <string name="text_ajouter_list">SMS ajouté à la liste d\'envoi</string>
+
+
+    <string name="activity_contacts_list">Liste de contacts</string>
+    <string name="activity_contact_detail">Détails du contact</string>
+    <string name="imageview_description">Avatar du contact</string>
+    <string name="address_button_description">Voir cette adresse</string>
+    <string name="menu_search">Rechercher</string>
+    <string name="menu_add_contact">Ajouter un Contact</string>
+    <string name="menu_edit_contact">Modifier un Contact</string>
+    <string name="no_contacts">Aucun contact trouvé</string>
+    <string name="no_contact_selected">Aucun contact séléctionné</string>
+    <string name="search_hint">Rechercher des contacts</string>
+    <string name="sms_send">SMS ENVOYE</string>
+    <string name="error_sms_send">ECHEC ENVOI SMS</string>
+    <string name="error_date_not_selected">Veuillez selectionner une date</string>
+    <string name="error_time_not_selected">Veuillez selectionner une heure</string>
+    <string name="error_contact_not_selected">Veuillez selectionner un contact</string>
+    <string name="error_empty_text">Veuillez entrer du texte</string>
+
+    <string name="text_dialog_delete_sms">Etes vous sûr de vouloir supprimer cet SMS</string>
+    <string name="yes_button">Oui</string>
+    <string name="no_button">Annuler</string>
+    <string name="title_dialog_delete_sms">Supprimer?</string>
+
+    <string name="alertdialog_mail_title">Attention !</string>
+    <string name="alertdialog_mail_message">Vous pouvez envoyez des mail uniquement à partir
+    d\'adresse Gmail ! Il faut activer l\'accés \"Aux applications moins sécurisés\"
+        sur son compte pour son bon fonctionnement</string>
+
+    <!-- Used for the AlphabetIndexer in ContactsListFragment to provide quick navigation by
+         alphabet using ListView fast scroll. -->
+    <string name="alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <!-- When using ContactsContract.Contacts#CONTENT_FILTER_URI to search contacts, a match occurs
+         when using a number of different fields, such as name, e-mail address, address, phone
+         number, etc. When a match occurs that is not the name, there is currently no way to tell
+         which other field was matched. This string is displayed in the secondary display text in
+         ContactsListFragment when a search query match occurs that is not the display name.
+         -->
+    <string name="search_match_other">Trouver d\'autres champs de saisie</string>
+
+    <string name="no_address">Aucune adresse trouvé</string>
+    <string name="no_intent_found">Aucune application trouvé pour gérer cette action</string>
+    <string name="contacts_list_search_results_title">Liste des contacts pour \"%s\"</string>
+    <string name="error_time_datePicker">Veuillez selectionner une date posterieur à la date actuelle</string>
+    <string name="error_time_timePicker">Veuillez selectionner une heure posterieur à l\'heure actuelle</string>
+    <string name="error_empty_emailfrom" >Veuillez rentrer votre adresse mail</string>
+    <string name="error_empty_mailto" >Veuillez entrer l\'adresse mail destinataire</string>
+    <string name="error_empty_passfrom" >Veuillez entrer votre mot de passe</string>
+    <string name="error_empty_subject" >Veuillez entrer l\'objet de votre mail</string>
+    <string name="error_mail_send" >Mail envoyé avec succés</string>
+    <string name="mail_success_program" >Mail programmé !</string>
+</resources>

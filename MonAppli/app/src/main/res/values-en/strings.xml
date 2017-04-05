@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">SendSchedule</string>
+    <string name="button_mail">Schedule an email</string>
+    <string name="button_sms">Schedule a SMS</string>
+    <string name="button_contact">Select a contact</string>
+    <string name="button_envoyer">Send</string>
+    <string name="default_text">Type SMS</string>
+    <string name="default_text_dest">To: </string>
+    <string name="default_text_object">Object: </string>
+    <string name="default_text_mail">Type Mail</string>
+    <string name="default_text_mailfrom">Type your Mail</string>
+    <string name="default_text_passfrom">Type your password</string>
+    <string name="default_text_num">Type phone number</string>
+    <string name="button_validate">Validate</string>
+    <string name="button_calendar">Calendar</string>
+    <string name="button_time">Clock</string>
+    <string name="button_my_sms">My Scheduled SMS</string>
+    <string name="text_listSMS">Scheduled SMS List</string>
+    <string name="text_ajouter_list">SMS added to the sending list</string>
+
+    <string name="activity_contacts_list">Contacts List</string>
+    <string name="activity_contact_detail">Contact Detail</string>
+    <string name="contacts_list_search_results_title">Contacts List Search for \"%s\"</string>
+    <string name="imageview_description">Contact Thumbnail</string>
+    <string name="address_button_description">View Address</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_add_contact">Add Contact</string>
+    <string name="menu_edit_contact">Edit Contact</string>
+    <string name="no_contacts">No Contacts Found</string>
+    <string name="no_contact_selected">No Contact Selected</string>
+    <string name="search_hint">Find contacts</string>
+    <string name="error_time_timePicker">Please select a date later current date</string>
+    <string name="error_time_datePicker">Please select a time later current time</string>
+    <string name="sms_send">SMS SEND</string>
+    <string name="error_sms_send">SMS FAILED</string>
+    <string name="error_date_not_selected">Please select a date</string>
+    <string name="error_time_not_selected">Plase select a time</string>
+    <string name="error_empty_text">Please enter text</string>
+
+    <string name="text_dialog_delete_sms">Are you sure you want to delete this SMS</string>
+
+    <!-- Used for the AlphabetIndexer in ContactsListFragment to provide quick navigation by
+         alphabet using ListView fast scroll. -->
+    <string name="alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <!-- When using ContactsContract.Contacts#CONTENT_FILTER_URI to search contacts, a match occurs
+         when using a number of different fields, such as name, e-mail address, address, phone
+         number, etc. When a match occurs that is not the name, there is currently no way to tell
+         which other field was matched. This string is displayed in the secondary display text in
+         ContactsListFragment when a search query match occurs that is not the display name.
+         -->
+    <string name="search_match_other">Matches Other Field</string>
+
+    <string name="no_address">No addresses found</string>
+    <string name="no_intent_found">No application found to handle this action</string>
+    <string name="title_dialog_delete_sms">Delete?</string>
+    <string name="yes_button">Yes</string>
+    <string name="no_button">Cancel</string>
+    <string name="alertdialog_mail_title">Be careful !</string>
+    <string name="alertdialog_mail_message">You only can send mail from a Gmail account ! Please enable the \"Less Secure App access\" on your account to make it work.</string>
+    <string name="error_empty_emailfrom" >Please type your mail to be able to send your email</string>
+    <string name="error_empty_mailto" >Please type the e-mail address</string>
+    <string name="error_empty_passfrom" >Please type your password</string>
+    <string name="error_contact_not_selected">Please Select a contact</string>
+    <string name="error_empty_subject" >Please type the subject of your mail</string>
+    <string name="error_mail_send" >Mail successfully sent</string>
+    <string name="mail_success_program" >Mail scheduled !</string>
+</resources>
